@@ -18,7 +18,7 @@ eas login
 ### Verificar autenticación en Expo
 eas whoami
 
-### Aplicar Configuración Expo
+### Aplicar Configuración Expo All Ios Android
 eas build:configure
 
 ### Compilar APP para obtener el Apk
