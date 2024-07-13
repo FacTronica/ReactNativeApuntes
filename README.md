@@ -12,6 +12,9 @@ npm run web
 ### Instalar Cliente Expo
 npm install -g eas-cli
 
+### Registrar en Expo
+https://expo.dev
+
 ### Autenticar en Expo
 eas login
 
