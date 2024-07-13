@@ -26,3 +26,8 @@ eas build:configure
 
 ### Compilar APP para obtener el Apk
 eas build -p android --profile preview
+
+### Instalar webview
+npm i react-native-webview
+
+
