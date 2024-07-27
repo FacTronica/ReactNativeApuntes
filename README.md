@@ -3,6 +3,9 @@
 ### Crear APP Vacia
 npx create-expo-app@latest webview --template blank
 
+### Instalar webview
+npm i react-native-webview
+
 ### Instalar Web
 npx expo install react-native-web react-dom @expo/metro-runtime
 
@@ -21,13 +24,14 @@ eas login
 ### Verificar autenticación en Expo
 eas whoami
 
-### Aplicar Configuración Expo All Ios Android
+# Compilar APP Reac Native
+
+## Aplicar Configuración Expo
 eas build:configure
 
-### Compilar APP para obtener el Apk
+## Compilar APP para obtener el Instalador
 eas build -p android --profile preview
 
-### Instalar webview
-npm i react-native-webview
+
 
 
