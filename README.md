@@ -12,17 +12,10 @@ eas login
 ## Verificar autenticación en Expo
 eas whoami
 
-
 # Crear Nueva APP React Native
 
 ## Crear APP Vacia
 npx create-expo-app@latest factronica --template blank
-
-## Instalar webview
-npm i react-native-webview
-
-## Instalar Web
-npx expo install react-native-web react-dom @expo/metro-runtime
 
 # Compilar APP Reac Native
 
@@ -31,8 +24,4 @@ eas build:configure
 
 ## Compilar APP para obtener el Instalador
 eas build -p android --profile preview
-
-### Ejecutar una APP Web
-npm run web
-
 
