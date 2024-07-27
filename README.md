@@ -1,21 +1,19 @@
-# React Native con Expo
+# React Native con Framework Expo
 
-
-
-### Instalar Cliente Expo
-npm install -g eas-cli
-
-### Registrar en Expo
+## Registrar en Expo
 https://expo.dev
 
-### Autenticar en Expo
+## Instalar Cliente Expo
+npm install -g eas-cli
+
+## Autenticar en Expo
 eas login
 
-### Verificar autenticación en Expo
+## Verificar autenticación en Expo
 eas whoami
 
 
-# Crear Nueva APP
+# Crear Nueva APP React Native
 
 ## Crear APP Vacia
 npx create-expo-app@latest factronica --template blank
